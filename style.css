@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(27, 31, 36);
+    color: white;
+}
+
+h2 {
+        font-size: 3rem;
+        color: orange;
+        display: flex;
+        justify-content: center;
+        margin: 18px 0 0 0;
+}
+
+img {
+    height: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    font-size: 1.4rem;
+    list-style: none;
+    margin: 0 25px;
+}
+
+nav ul li a {
+    color: white;
+}
+
+nav ul li a:hover {
+    color: blue;
+}
+
+#menu-icon {
+    font-size:2rem;
+    display: none;
+    cursor: pointer;
+}
+
+#home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.leftSection > div {
+    width: 100%;
+}
+
+.leftSection {
+    font-size: 3rem;
+}
+
+.show-icon {
+    font-size: 2rem;
+}
+
+.show-icon a {
+    margin-left: 10px;
+}
+
+.show-icon > a {
+    color: blueviolet;
+}
+
+.show-icon > a:hover{
+    color: blue;
+}
+
+button, .btn {
+    border: none;
+    border-radius: 99px;
+    background-color: blueviolet;
+    padding: 10px 60px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+.rightSection img {
+    height: 78vh;
+    border-radius: 50%;
+    width: 32vw;
+    box-shadow: 0 0 25px gray;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.orange {
+    font-size: 4rem;
+    color: orange;
+}
+
+main hr {
+    border: 0;
+    background: gray;
+    height: 1.2px;
+    margin: 40px 84px 70px 84px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    margin: 40px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+    width: auto;
+    height: auto;
+}
+
+.about-me p {
+    font-size: 1.5rem;
+    margin: 18px 0px;
+}
+
+.skill-box {
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+    background: transparent;
+    padding: 8px;
+    width: 200px;
+}
+
+.skill-box > img {
+    width: 100%;
+    height: 40%;
+}
+
+.my-skills div > h4{
+    font-size: 1.6rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.my-skills div > p {
+    font-size: 1rem;
+    margin-top: 4px;
+    padding-left: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#skills-boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+#project-boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.project-box {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+    background: transparent;
+    padding: 8px;
+    width: 300px;
+    cursor: pointer;
+    margin: 40px 0px;
+}
+
+.project-box img {
+    width: 100%;
+    height: 80%;
+    padding: 10px;
+}
+
+.project-box h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+    color: orange;
+}
+
+.project-box:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    transition: transform 0.3s ease-in-out;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px gray;
+    width: 50vw;
+    text-align: center;
+    margin: 6rem;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 5px;
+    color: gray;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button:hover,.btn:hover {
+    background-color: blue;
+}
+
+.footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-show-icon {
+    font-size: 2rem;
+}
+
+.footer-show-icon > a {
+    color: blueviolet;
+}
+
+.footer-show-icon > a:hover {
+    color: blue;
+}
+
+@media (max-width: 768px) {
+    #home {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    main hr {
+        border: 0;
+        background: gray;
+        height: 1.2px;
+        margin: 20px 42px 35px 42px;
+    }
+
+    .leftSection, .element {
+        font-size: 1.5rem;
+    }
+
+    .orange {
+        font-size: 2rem;
+    }
+
+    .about-me p {
+        font-size: 1rem;
+    }
+
+    .form-group label {
+        font-size: 1rem;
+    }
+
+    .rightSection img {
+        width: 60vw;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    .leftSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .show-icon {
+        display: flex;
+        justify-content: center;
+    }
+
+    .button {
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px gray;
+        width: 80vw;
+        text-align: center;
+        margin: 6rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        padding: 10px 40px;
+    }
+
+    #menu-icon {
+        display: block;
+        margin-left: 3rem;
+    }
+
+    nav .right {
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 100%;
+        display: none;
+        background-color: black;
+    }
+
+    nav .right.active {
+        display: block;
+    }
+
+    nav .right ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav .right ul li {
+        margin: 10px 0;
+    }
+
+    .footer-show-icon {
+        font-size: 1.2rem;
+    }
+}
+

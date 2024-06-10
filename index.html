@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akanksha Lakhera | Front-End Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <img src="logo.jpg" alt="my logo">
+            </div>
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div class="leftSection">
+                Hi, I am
+                <div class="orange">Akanksha Lakhera,</div>
+                <span id="element"></span>
+                <div class="show-icon">
+                    <a href="https://linkedin.com/in/akanksha-lakhera-19933619b" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/in/@Akanksha_1300" target="_blank"><i
+                            class="fa-brands fa-twitter"></i></a>
+                    <a href="https://instagram.com/lakheraakanksha" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/in/akanksha1300" target="_blank"><i
+                            class="fa-brands fa-square-github"></i></a>
+                    <a href="mailto:akankshalakhera1300@gmail.com" target="_blank"><i
+                            class="fa-solid fa-envelope"></i></a>
+                </div>
+
+                <button class="button"><a href="Akanksha.cv.pdf" download>Download CV</a></button>
+                <button class="button"><a href="tel:+919548547118">Contact Me</a></button>
+            </div>
+            <div class="rightSection">
+                <img src="myPicture.png" alt="Photo of Akanksha Lakhera ">
+            </div>
+        </section>
+        <hr>
+        <section id="about">
+            <div class="about-me">
+                <h2>ABOUT ME</h2>
+                <p>I am Akanksha Lakhera, a Front-End Developer based in Dehradun. With a keen eye for design and a love
+                    for creating interactive and user-friendly websites.
+                    I have honed my skills in HTML, CSS, JavaScript, and various modern frameworks like Bootstrap.
+                    I'm excited about the future of web development and look forward to contributing to innovative
+                    projects that make a difference. If you have a project in mind or just want to say hi, feel free to
+                    get in touch..!
+                </p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="my-project">
+                <h2>Projects</h2>
+                <div id="project-boxes">
+                    <a href="https://akanksha1300.github.io/Calculator/" target="_blank" class="project-box">
+                        <img src="Calculator.png" alt="Calculator Project">
+                        <h4>Calculator</h4>
+                    </a>
+
+                    <a href="https://akanksha1300.github.io/Project-1/" target="_blank" class="project-box">
+                        <img src="Tic_Tac_Toe.png" alt="Tic Tac Toe Project">
+                        <h4>Tic Tac Toe</h4>
+                    </a>
+
+                    <a href="https://akanksha1300.github.io/Weather-Forecast/" target="_blank" class="project-box">
+                        <img src="weatherForecast.png" alt="Weather Forecast Project">
+                        <h4>Weather Forecast</h4>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="my-skills">
+                <h2>SKILLS</h2>
+                <div id="skills-boxes">
+                    <div class="skill-box">
+                        <img src="html-logo.png">
+                        <h4>HTML:</h4>
+                        <p>Crafting well-structured and semantic markup.</p>
+                    </div>
+
+                    <div class="skill-box">
+                        <img src="css-logo.png">
+                        <h4>CSS: </h4>
+                        <p>Styling websites with modern design trends, ensuring cross-browser compatibility and
+                            responsiveness.</p>
+                    </div>
+
+                    <div class="skill-box">
+                        <img src="JS_logo.png">
+                        <h4>JavaScript: </h4>
+                        <p>Adding interactivity and dynamic features to web pages.</p>
+                    </div>
+
+                    <div class="skill-box">
+                        <img src="jquery_logo.png">
+                        <h4>jQuery: </h4>
+                        <p>Simplifying complex JavaScript tasks and improving website functionality.</p>
+                    </div>
+
+                    <div class="skill-box">
+                        <img src="bootstrap_logo.png">
+                        <h4>Bootstrap: </h4>
+                        <p>Utilizing the framework to create responsive and mobile-first web designs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="contact-form">
+                <h2>Contact Me</h2>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="a6606897-17d1-411f-91b5-142bbf05027d">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <input type="submit" class="btn" value="Submit">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Akanksha Lakhera | All Rights Reserved.</p>
+        <div class="footer-show-icon">
+            <a href="https://linkedin.com/in/akanksha-lakhera-19933619b" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/in/@Akanksha_1300" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://instagram.com/lakheraakanksha" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/in/akanksha1300" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+            <a href="mailto:akankshalakhera1300@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/javascript.util/0.12.12/javascript.util.min.js"
+        integrity="sha512-oHBLR38hkpOtf4dW75gdfO7VhEKg2fsitvHZYHZjObc4BPKou2PGenyxA5ZJ8CCqWytBx5wpiSqwVEBy84b7tw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['a Web Designer', 'a Web Developer', 'a Frontend Developer.'],
+          typeSpeed: 50,
+        });
+      </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
